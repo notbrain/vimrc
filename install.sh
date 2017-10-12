@@ -1,20 +1,20 @@
 #!/bin/bash
 set -e
-if [ -f ~/.vim/puffin ]; then	
-    echo "puffin vimrc already installed :)"
+if [ -f ~/.vim/notbrain ]; then
+    echo "notbrain vimrc already installed :)"
 else
     if [ -f ~/.vimrc ]; then
         echo "make backup of .vimrc file."
-	rm ~/.vimrc.backup
-    	mv ~/.vimrc ~/.vimrc.backup
+    rm ~/.vimrc.bak
+        mv ~/.vimrc ~/.vimrc.bak
     fi
     if [ -d ~/.vim ]; then
         echo "make backup of .vim folder."
-	rm -rf ~/.vimrc.backup
-        mv ~/.vim ~/.vim.backup
+    rm -rf ~/.vimrc.bak
+        mv ~/.vim ~/.vim.bak
     fi
-    cp ~/.puffin_vimrc/vimrc ~/.vimrc
-    cp -r ~/.puffin_vimrc/vim ~/.vim
-    echo "puffin vimrc successfully installed :)"
+    cp ~/.notbrain_vimrc/vimrc ~/.vimrc
+    cp -r ~/.notbrain_vimrc/vim ~/.vim
+    echo "notbrain vimrc successfully installed :)"
 fi
-echo "\nfeel free to make pull request: www.github.com/brkkyk/vimrc"
+echo "\nfeel free to make pull request: www.github.com/notbrain/vimrc"
