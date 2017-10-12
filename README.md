@@ -6,7 +6,7 @@ curiosity killed the vim - the incredible, superb lightweight puffin vimrc :)
 ## what's included?
 * [pathogen.vim](https://github.com/tpope/vim-pathogen)
 * [ack.vim](https://github.com/mileszs/ack.vim)
-* [ctrlp.vim](https://github.com/kien/ctrlp.vim)
+* [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
 * [nerdtree](https://github.com/scrooloose/nerdtree)
 * [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
 * [syntastic](https://github.com/vim-syntastic/syntastic)
@@ -21,8 +21,8 @@ sudo apt-get install ack-grep
 ```
 then
 ```bash
-git clone git://github.com/brkkyk/vimrc.git ~/.puffin_vimrc
-sh ~/.puffin_vimrc/install.sh
+git clone git://github.com/notbrain/vimrc.git ~/.notbrain_vimrc
+sh ~/.notbrain_vimrc/install.sh
 ```
 ## shortcuts
 #### open new tab
