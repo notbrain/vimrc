@@ -18,3 +18,4 @@ else
     echo "notbrain vimrc successfully installed :)"
 fi
 echo "\nfeel free to make pull request: www.github.com/notbrain/vimrc"
+echo "\nforked from: www.github.com/brkkyk/vimrc"

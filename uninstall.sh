@@ -1,10 +1,11 @@
 #!/bin/bash
 set -e
-if [ -f ~/.vim/puffin ]; then	
+if [ -f ~/.vim/notbrain ]; then
     rm ~/.vimrc
     rm -rf ~/.vim
-    echo "puffin vimrc successfully uninstalled :("
+    echo "notbrain vimrc successfully uninstalled :("
 else
-    echo "puffin vimrc not installed yet."
+    echo "notbrain vimrc not installed yet."
 fi
-echo "\nfeel free to make pull request: www.github.com/brkkyk/vimrc"
+echo "\nfeel free to make pull request: www.github.com/notbrain/vimrc"
+echo "\nforked from: www.github.com/brkkyk/vimrc"

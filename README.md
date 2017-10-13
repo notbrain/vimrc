@@ -1,8 +1,8 @@
-# puffin vimrc
-curiosity killed the vim - the incredible, superb lightweight puffin vimrc :)
+# notbrain vimrc
+curiosity killed the vim - the incredible, superb lightweight notbrain vimrc :)
 
 ## screenshot
-![puffin vimrc](http://i.imgur.com/1vWHUvh.png)
+![notbrain vimrc](http://i.imgur.com/1vWHUvh.png)
 ## what's included?
 * [pathogen.vim](https://github.com/tpope/vim-pathogen)
 * [ack.vim](https://github.com/mileszs/ack.vim)
@@ -59,7 +59,7 @@ gcc
 ```
 ## how to uninstall :(
 ```bash
-sh ~/.puffin_vimrc/uninstall.sh
+sh ~/.notbrain_vimrc/uninstall.sh
 ```
 ## contribution
 #### feel free to make pull requests :)

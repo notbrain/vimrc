@@ -1,10 +1,16 @@
-""" puffin vimrc
+""" notbrain vimrc
 
-"" author:
+"" original author:
 " burak kiyak
 " brkkyk@gmail.com
 " github.com/brkkyk
 " github.com/brkkyk/vimrc
+
+"" forked by:
+" brian ross
+" brian@notbrain.com
+" github.com/notbrain
+" github.com/notbrain/vimrc
 
 "" initialize pathogen package manager:
 execute pathogen#infect()
@@ -14,7 +20,7 @@ filetype plugin indent on
 set backspace=indent,eol,start
 syntax on
 set guifont=Monaco:h12 noanti
-colorscheme jellybeans 
+colorscheme jellybeans
 " Make vim indent 2 spaces for ruby and scala files only
 filetype plugin indent on
 set sw=4
@@ -31,11 +37,11 @@ map gcc <leader>c<space>
 " ctrlp toggle mapping to ',j'
 map ,j :CtrlP <CR>
 " :w save file mapping to ',w'
-map ,w :w <CR> 
+map ,w :w <CR>
 " :q quit vim mapping to ',q'
 map ,q :q <CR>
 " :Ack superb full-text search mapping to ',g'
-map ,g :Ack 
+map ,g :Ack
 " :tabnew open new tab ',tn'
 map ,tn :tabnew <CR>
 " :tabnext switch between tabs ',t,[1-9]'
